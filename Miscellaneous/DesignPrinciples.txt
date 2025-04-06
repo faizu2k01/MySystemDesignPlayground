@@ -1,0 +1,28 @@
+REST - The abbreviation is stands for Representational state transfer, a design concept of set of architecture principles to design
+networked applications. This principles encapsulates the concepts of HTTP, URL, MIME Types of web standarads.
+Developed by Roy Fielding in 2000
+
+
+RESTful - RESTFul descibes as a web service or api that correclty implement the REST principles.
+for example if a service has HTTP request or response (GET,POST,PUT,DELETE) and logical resouces based URL, stateless and provides responses
+in standard JSON format then that considered as RESTFUL.
+
+Conclution - REST is what you follow, and RESTful is how well you follow it.
+
+
+
+What are the REST principles ?
+
+The REST principles are the Design concpts for developing networked applications, primarily for web services. In 2000 Roy Fielding has 
+provided set of architecture principles that allows to design seamless newtworked applications.
+The services that implement these principles properly are considered as RESTFUL.
+
+These are the following common principles of the REST -
+
+1- Client-Server Architecture - Serivce should have client and server as seperate entities, and both should communicate.
+2- Statelessness - The server not maintain or store any client-specific information during the request and response, each information should 
+   be send to the server in the request body.
+3- Cachebility  - Each respose explicitly defines the Cachebility, wheather it is cacheble or not to improve performance
+4- Uniform Interface - Http protocol, URL, JSON/XML response.
+5- Layerd server - Layered design of server (Security layer, business layer, Database layer), client will interact with API not the layers
+6- Code on demand - Server can response with executable codes to the client to extend the functionality of the client.
